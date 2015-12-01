@@ -1,0 +1,1239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2015-12-01">
+    <creator>Gephi 0.8.1</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="d0" title="visone.nodeID" type="integer"></attribute>
+      <attribute id="d1" title="louvain" type="integer"></attribute>
+      <attribute id="d2" title="louvain-level1" type="integer"></attribute>
+      <attribute id="d6" title="betweenness (%)" type="double"></attribute>
+      <attribute id="d7" title="degree (%)" type="double"></attribute>
+      <attribute id="d8" title="d8" type="string"></attribute>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="d9" title="visone.confirmation" type="integer"></attribute>
+      <attribute id="d10" title="visone.direction" type="boolean"></attribute>
+      <attribute id="d11" title="visone.edgeID" type="integer"></attribute>
+      <attribute id="d14" title="d14" type="string"></attribute>
+    </attributes>
+    <nodes>
+      <node id="n0" label="Dortmund">
+        <attvalues>
+          <attvalue for="d0" value="1"></attvalue>
+          <attvalue for="d1" value="0"></attvalue>
+          <attvalue for="d2" value="0"></attvalue>
+          <attvalue for="d6" value="0.0"></attvalue>
+          <attvalue for="d7" value="0.43526438260646"></attvalue>
+          <attvalue for="d8" value="Dortmund"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-383.46344" y="-273.59558" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="n1" label="D&amp;#252;sseldorf">
+        <attvalues>
+          <attvalue for="d0" value="2"></attvalue>
+          <attvalue for="d1" value="0"></attvalue>
+          <attvalue for="d2" value="1"></attvalue>
+          <attvalue for="d6" value="0.0"></attvalue>
+          <attvalue for="d7" value="9.87336310948001"></attvalue>
+          <attvalue for="d8" value="Düsseldorf"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="13.175537" y="139.77798" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="n2" label="Bremen">
+        <attvalues>
+          <attvalue for="d0" value="3"></attvalue>
+          <attvalue for="d1" value="0"></attvalue>
+          <attvalue for="d2" value="2"></attvalue>
+          <attvalue for="d6" value="0.0"></attvalue>
+          <attvalue for="d7" value="1.7111121832381802"></attvalue>
+          <attvalue for="d8" value="Bremen"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="35.083496" y="246.5651" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="n3" label="Erfurt">
+        <attvalues>
+          <attvalue for="d0" value="4"></attvalue>
+          <attvalue for="d1" value="2"></attvalue>
+          <attvalue for="d2" value="6"></attvalue>
+          <attvalue for="d6" value="0.0"></attvalue>
+          <attvalue for="d7" value="0.0"></attvalue>
+          <attvalue for="d8" value="Erfurt"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="33.67444" y="371.08768" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="n4" label="Karlsruhe">
+        <attvalues>
+          <attvalue for="d0" value="5"></attvalue>
+          <attvalue for="d1" value="1"></attvalue>
+          <attvalue for="d2" value="3"></attvalue>
+          <attvalue for="d6" value="0.0"></attvalue>
+          <attvalue for="d7" value="0.4315267800142453"></attvalue>
+          <attvalue for="d8" value="Karlsruhe"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="296.10446" y="214.77206" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="n5" label="Hahn">
+        <attvalues>
+          <attvalue for="d0" value="6"></attvalue>
+          <attvalue for="d1" value="3"></attvalue>
+          <attvalue for="d2" value="7"></attvalue>
+          <attvalue for="d6" value="0.0"></attvalue>
+          <attvalue for="d7" value="0.0"></attvalue>
+          <attvalue for="d8" value="Hahn"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="90.91257" y="-364.74103" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="n6" label="Dresden">
+        <attvalues>
+          <attvalue for="d0" value="7"></attvalue>
+          <attvalue for="d1" value="1"></attvalue>
+          <attvalue for="d2" value="4"></attvalue>
+          <attvalue for="d6" value="0.0"></attvalue>
+          <attvalue for="d7" value="2.194137731415092"></attvalue>
+          <attvalue for="d8" value="Dresden"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="377.15036" y="467.4457" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="n7" label="Niederrhein">
+        <attvalues>
+          <attvalue for="d0" value="8"></attvalue>
+          <attvalue for="d1" value="4"></attvalue>
+          <attvalue for="d2" value="8"></attvalue>
+          <attvalue for="d6" value="0.0"></attvalue>
+          <attvalue for="d7" value="0.0"></attvalue>
+          <attvalue for="d8" value="Niederrhein"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-143.00055" y="82.82687" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="n8" label="N&amp;#252;rnberg">
+        <attvalues>
+          <attvalue for="d0" value="9"></attvalue>
+          <attvalue for="d1" value="0"></attvalue>
+          <attvalue for="d2" value="5"></attvalue>
+          <attvalue for="d6" value="0.0"></attvalue>
+          <attvalue for="d7" value="2.1893498284448265"></attvalue>
+          <attvalue for="d8" value="Nürnberg"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-313.81317" y="-175.88544" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="n9" label="Berlin">
+        <attvalues>
+          <attvalue for="d0" value="10"></attvalue>
+          <attvalue for="d1" value="1"></attvalue>
+          <attvalue for="d2" value="3"></attvalue>
+          <attvalue for="d6" value="9.735522241061162"></attvalue>
+          <attvalue for="d7" value="18.222779658452794"></attvalue>
+          <attvalue for="d8" value="Berlin"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="399.7679" y="-261.49777" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="n10" label="Memmingen">
+        <attvalues>
+          <attvalue for="d0" value="11"></attvalue>
+          <attvalue for="d1" value="1"></attvalue>
+          <attvalue for="d2" value="3"></attvalue>
+          <attvalue for="d6" value="6.227050547832739"></attvalue>
+          <attvalue for="d7" value="0.06634441041401373"></attvalue>
+          <attvalue for="d8" value="Memmingen"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-184.40686" y="-318.31918" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="n11" label="Hamburg">
+        <attvalues>
+          <attvalue for="d0" value="12"></attvalue>
+          <attvalue for="d1" value="1"></attvalue>
+          <attvalue for="d2" value="4"></attvalue>
+          <attvalue for="d6" value="15.080398223877518"></attvalue>
+          <attvalue for="d7" value="12.082584830613788"></attvalue>
+          <attvalue for="d8" value="Hamburg"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-412.82834" y="408.0557" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="n12" label="L&amp;#252;beck">
+        <attvalues>
+          <attvalue for="d0" value="13"></attvalue>
+          <attvalue for="d1" value="5"></attvalue>
+          <attvalue for="d2" value="9"></attvalue>
+          <attvalue for="d6" value="0.0"></attvalue>
+          <attvalue for="d7" value="0.0"></attvalue>
+          <attvalue for="d8" value="Lübeck"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="75.4816" y="498.39578" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="n13" label="Hannover">
+        <attvalues>
+          <attvalue for="d0" value="14"></attvalue>
+          <attvalue for="d1" value="0"></attvalue>
+          <attvalue for="d2" value="0"></attvalue>
+          <attvalue for="d6" value="0.0"></attvalue>
+          <attvalue for="d7" value="2.074775415134498"></attvalue>
+          <attvalue for="d8" value="Hannover"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-430.0311" y="217.84738" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="n14" label="Paderborn">
+        <attvalues>
+          <attvalue for="d0" value="15"></attvalue>
+          <attvalue for="d1" value="0"></attvalue>
+          <attvalue for="d2" value="0"></attvalue>
+          <attvalue for="d6" value="0.0"></attvalue>
+          <attvalue for="d7" value="0.2758623110159956"></attvalue>
+          <attvalue for="d8" value="Paderborn"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="27.559692" y="-276.02676" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="n15" label="M&amp;#252;nster">
+        <attvalues>
+          <attvalue for="d0" value="16"></attvalue>
+          <attvalue for="d1" value="0"></attvalue>
+          <attvalue for="d2" value="5"></attvalue>
+          <attvalue for="d6" value="0.0"></attvalue>
+          <attvalue for="d7" value="0.6756129209890718"></attvalue>
+          <attvalue for="d8" value="Münster"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="220.65256" y="-449.05167" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="n16" label="Saarbr&amp;#252;cken">
+        <attvalues>
+          <attvalue for="d0" value="17"></attvalue>
+          <attvalue for="d1" value="1"></attvalue>
+          <attvalue for="d2" value="3"></attvalue>
+          <attvalue for="d6" value="0.0"></attvalue>
+          <attvalue for="d7" value="0.5420073791328206"></attvalue>
+          <attvalue for="d8" value="Saarbrücken"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-62.9541" y="342.61838" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="n17" label="K&amp;#246;ln">
+        <attvalues>
+          <attvalue for="d0" value="18"></attvalue>
+          <attvalue for="d1" value="1"></attvalue>
+          <attvalue for="d2" value="4"></attvalue>
+          <attvalue for="d6" value="0.7041065305615728"></attvalue>
+          <attvalue for="d7" value="7.4838302197034565"></attvalue>
+          <attvalue for="d8" value="Köln"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-6.4992676" y="269.77792" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="n18" label="Rostock">
+        <attvalues>
+          <attvalue for="d0" value="19"></attvalue>
+          <attvalue for="d1" value="0"></attvalue>
+          <attvalue for="d2" value="2"></attvalue>
+          <attvalue for="d6" value="2.8086223268887927"></attvalue>
+          <attvalue for="d7" value="0.15998091543971413"></attvalue>
+          <attvalue for="d8" value="Rostock"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-212.31085" y="87.352875" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="n19" label="Frankfurt">
+        <attvalues>
+          <attvalue for="d0" value="20"></attvalue>
+          <attvalue for="d1" value="0"></attvalue>
+          <attvalue for="d2" value="5"></attvalue>
+          <attvalue for="d6" value="20.712049443100025"></attvalue>
+          <attvalue for="d7" value="12.145657856558513"></attvalue>
+          <attvalue for="d8" value="Frankfurt"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-211.21341" y="22.405277" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="n20" label="Friedrichshafen">
+        <attvalues>
+          <attvalue for="d0" value="21"></attvalue>
+          <attvalue for="d1" value="1"></attvalue>
+          <attvalue for="d2" value="4"></attvalue>
+          <attvalue for="d6" value="8.754893316370246"></attvalue>
+          <attvalue for="d7" value="0.5479163009604565"></attvalue>
+          <attvalue for="d8" value="Friedrichshafen"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="263.731" y="-443.13162" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="n21" label="Stuttgart">
+        <attvalues>
+          <attvalue for="d0" value="22"></attvalue>
+          <attvalue for="d1" value="0"></attvalue>
+          <attvalue for="d2" value="2"></attvalue>
+          <attvalue for="d6" value="23.363795485894446"></attvalue>
+          <attvalue for="d7" value="6.858917209981028"></attvalue>
+          <attvalue for="d8" value="Stuttgart"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="53.599365" y="118.14261" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="n22" label="Sonstige Flugh&amp;#228;fen">
+        <attvalues>
+          <attvalue for="d0" value="23"></attvalue>
+          <attvalue for="d1" value="1"></attvalue>
+          <attvalue for="d2" value="3"></attvalue>
+          <attvalue for="d6" value="7.400822825600071"></attvalue>
+          <attvalue for="d7" value="0.08487789040175796"></attvalue>
+          <attvalue for="d8" value="Sonstige Flughäfen"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-107.31113" y="-79.75998" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="n23" label="Leipzig">
+        <attvalues>
+          <attvalue for="d0" value="24"></attvalue>
+          <attvalue for="d1" value="0"></attvalue>
+          <attvalue for="d2" value="1"></attvalue>
+          <attvalue for="d6" value="0.0"></attvalue>
+          <attvalue for="d7" value="1.3403744842069134"></attvalue>
+          <attvalue for="d8" value="Leipzig"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="532.39307" y="-72.21811" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="n24" label="M&amp;#252;nchen">
+        <attvalues>
+          <attvalue for="d0" value="25"></attvalue>
+          <attvalue for="d1" value="0"></attvalue>
+          <attvalue for="d2" value="0"></attvalue>
+          <attvalue for="d6" value="5.212739058813431"></attvalue>
+          <attvalue for="d7" value="20.28159103168151"></attvalue>
+          <attvalue for="d8" value="München"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="364.12747" y="-369.8131" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="n25" label="Sylt">
+        <attvalues>
+          <attvalue for="d0" value="26"></attvalue>
+          <attvalue for="d1" value="0"></attvalue>
+          <attvalue for="d2" value="1"></attvalue>
+          <attvalue for="d6" value="0.0"></attvalue>
+          <attvalue for="d7" value="0.32213315011484944"></attvalue>
+          <attvalue for="d8" value="Sylt"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-207.70587" y="14.804935" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+      <node id="n26" label="Zweibr&amp;#252;cken">
+        <attvalues>
+          <attvalue for="d0" value="27"></attvalue>
+          <attvalue for="d1" value="6"></attvalue>
+          <attvalue for="d2" value="10"></attvalue>
+          <attvalue for="d6" value="0.0"></attvalue>
+          <attvalue for="d7" value="0.0"></attvalue>
+          <attvalue for="d8" value="Zweibrücken"></attvalue>
+        </attvalues>
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-107.87546" y="-417.8361" z="0.0"></viz:position>
+        <viz:color r="153" g="153" b="153"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="n0" target="n24" weight="83298.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="1"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n1" target="n6" weight="107156.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="3"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n1" target="n8" weight="109299.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="6"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n1" target="n9" weight="513926.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="8"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n1" target="n11" weight="294701.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="10"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n1" target="n19" weight="31943.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="11"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n1" target="n20" weight="13279.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="4"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n1" target="n21" weight="71543.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="7"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n1" target="n23" weight="44655.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="5"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n1" target="n24" weight="616513.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="2"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n1" target="n25" weight="40421.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="9"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n2" target="n19" weight="54622.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="14"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n2" target="n21" weight="76635.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="13"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n2" target="n24" weight="109452.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="12"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n4" target="n9" weight="54217.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="15"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n4" target="n11" weight="14758.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="16"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n6" target="n1" weight="87425.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="18"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n6" target="n11" weight="10149.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="21"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n6" target="n17" weight="64468.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="17"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n6" target="n19" weight="57646.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="22"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n6" target="n21" weight="48149.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="20"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n6" target="n24" weight="49169.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="19"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n8" target="n1" weight="86973.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="23"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n8" target="n9" weight="97656.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="24"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n8" target="n11" weight="111773.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="26"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n8" target="n19" weight="9220.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="25"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n9" target="n1" weight="499430.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="31"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n9" target="n4" weight="65060.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="37"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n9" target="n8" weight="122426.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="33"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n9" target="n10" weight="6601.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="35"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n9" target="n16" weight="81236.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="32"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n9" target="n17" weight="656930.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="29"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n9" target="n19" weight="591503.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="36"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n9" target="n20" weight="21220.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="28"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n9" target="n21" weight="498980.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="34"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n9" target="n22" weight="8049.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="30"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n9" target="n24" weight="754022.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="27"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n10" target="n9" weight="6439.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="38"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n10" target="n11" weight="6557.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="39"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n11" target="n1" weight="228679.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="44"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n11" target="n4" weight="30720.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="50"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n11" target="n6" weight="10774.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="41"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n11" target="n8" weight="112590.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="46"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n11" target="n10" weight="5733.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="48"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n11" target="n16" weight="22311.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="45"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n11" target="n17" weight="183367.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="43"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n11" target="n19" weight="368966.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="49"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n11" target="n20" weight="22810.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="42"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n11" target="n21" weight="353588.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="47"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n11" target="n24" weight="677222.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="40"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n13" target="n19" weight="28519.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="53"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n13" target="n21" weight="87949.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="52"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n13" target="n24" weight="144309.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="51"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n14" target="n24" weight="43655.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="54"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n15" target="n19" weight="12505.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="56"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n15" target="n24" weight="83216.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="55"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n16" target="n9" weight="81165.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="57"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n16" target="n11" weight="22224.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="58"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n17" target="n6" weight="68635.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="59"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n17" target="n9" weight="643456.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="63"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n17" target="n11" weight="201244.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="64"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n17" target="n18" weight="11828.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="65"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n17" target="n20" weight="18387.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="60"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n17" target="n23" weight="41620.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="61"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n17" target="n24" weight="406660.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="62"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n18" target="n17" weight="11643.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="67"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n18" target="n21" weight="10596.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="68"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n18" target="n24" weight="7959.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="66"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n19" target="n1" weight="177684.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="75"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n19" target="n2" weight="163973.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="76"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n19" target="n6" weight="161645.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="71"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n19" target="n8" weight="127637.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="77"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n19" target="n9" weight="868333.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="79"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n19" target="n11" weight="666490.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="80"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n19" target="n13" weight="179229.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="70"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n19" target="n15" weight="56698.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="73"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n19" target="n20" weight="46218.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="72"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n19" target="n21" weight="151380.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="78"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n19" target="n23" weight="121019.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="74"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n19" target="n24" weight="415093.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="69"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n20" target="n1" weight="13788.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="84"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n20" target="n9" weight="21796.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="82"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n20" target="n11" weight="22130.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="85"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n20" target="n17" weight="17766.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="81"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n20" target="n19" weight="11798.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="83"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n21" target="n1" weight="52032.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="90"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n21" target="n2" weight="76838.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="91"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n21" target="n6" weight="49505.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="87"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n21" target="n9" weight="461780.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="93"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n21" target="n11" weight="365420.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="95"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n21" target="n13" weight="99957.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="86"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n21" target="n18" weight="10313.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="96"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n21" target="n19" weight="9523.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="97"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n21" target="n22" weight="7998.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="88"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n21" target="n23" weight="40434.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="89"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n21" target="n24" weight="8523.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="92"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n21" target="n25" weight="10051.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="94"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n22" target="n9" weight="8682.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="99"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n22" target="n21" weight="7677.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="98"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n23" target="n1" weight="40162.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="103"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n23" target="n17" weight="39446.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="104"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n23" target="n19" weight="29022.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="102"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n23" target="n21" weight="38420.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="101"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n23" target="n24" weight="34676.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="100"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n24" target="n0" weight="82884.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="110"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n24" target="n1" weight="700642.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="112"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n24" target="n2" weight="171775.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="113"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n24" target="n6" weight="122991.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="106"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n24" target="n8" weight="58310.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="114"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n24" target="n9" weight="894469.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="116"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n24" target="n11" weight="880871.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="118"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n24" target="n13" weight="252177.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="105"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n24" target="n14" weight="61668.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="107"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n24" target="n15" weight="105527.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="109"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n24" target="n17" weight="491843.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="108"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n24" target="n18" weight="8741.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="119"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n24" target="n19" weight="296492.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="120"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n24" target="n21" weight="73610.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="115"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n24" target="n23" weight="82295.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="111"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n24" target="n25" weight="13909.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="117"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n25" target="n1" weight="39355.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="123"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n25" target="n21" weight="7803.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="122"></attvalue>
+        </attvalues>
+      </edge>
+      <edge source="n25" target="n24" weight="11450.0">
+        <attvalues>
+          <attvalue for="d9" value="3"></attvalue>
+          <attvalue for="d10" value="false"></attvalue>
+          <attvalue for="d11" value="121"></attvalue>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
